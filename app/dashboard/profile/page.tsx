@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Profile = () => {
@@ -33,9 +34,11 @@ const Profile = () => {
       <div className="bg-white w-full  flex flex-col  justify-center rounded-lg  p-8">
         <div className="flex flex-col items-center space-y-8">
           <div className="relative w-32 h-32">
-            <img
+            <Image
               src={avatar}
               alt="Avatar"
+              width={250}
+              height={250}
               className="rounded-full w-full h-full object-cover border-4 border-[#E5E7EB]"
             />
             <label

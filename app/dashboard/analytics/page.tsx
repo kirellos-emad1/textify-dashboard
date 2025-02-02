@@ -77,9 +77,8 @@ const AnalyticsPage = () => {
             </div>
           </div>
 
-          <div className="bg-white py-6 rounded-lg ">
-            <div className="space-y-4">
-              <p className="font-medium text-[16px] md:text-[18px] text-[#0D141C]">
+          <div className="w-[100%] space-y-2">
+              <p className="font-medium text-[16px] sm:text-base text-[#0D141C]">
                 User Retention
               </p>
               <p className="font-bold text-[24px] sm:text-[32px] leading-10 text-[#0D141C]">
@@ -91,7 +90,6 @@ const AnalyticsPage = () => {
               <div className="h-64">
                 <BarChartComponent data={retentionData} />
               </div>
-            </div>
           </div>
         </div>
       </div>

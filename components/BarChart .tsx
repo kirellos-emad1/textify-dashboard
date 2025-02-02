@@ -3,11 +3,8 @@ import React from 'react';
 import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 
-
-const CustomBar = (props: any) => {
-    const { x, y, width, height } = props;
-    // Make the bar thinner by reducing its width and centering it
-    const barWidth = 32; // Thinner bar width
+const CustomBar = ({ x = 0, y = 0, width = 0, height = 0 }) => {
+    const barWidth = 32; 
     const xOffset = (width - barWidth) / 2;
 
     return (

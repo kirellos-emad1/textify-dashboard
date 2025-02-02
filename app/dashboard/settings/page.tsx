@@ -14,7 +14,7 @@ const Settings = () => {
           <div className="flex flex-col gap-1 max-md:w-[420px]">
             <p className="text-base font-bold leading-tight">Email Notifications</p>
             <p className="text-base font-normal leading-normal text-[#4e7397]">
-              Send a weekly summary of your workspace's activity to adam@acme.co
+              Send a weekly summary of your workspace&apos;s activity to kirellos@example.co
             </p>
           </div>
           <label className="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full bg-[#e7edf3] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#4F7396]">
@@ -38,7 +38,7 @@ const Settings = () => {
           <div className="flex flex-col gap-1">
             <p className="text-base font-bold leading-tight">Use group context</p>
             <p className="text-base font-normal leading-normal text-[#4e7397]">
-              If you're already passing the 'groupId' in your track calls, turn on this setting for more accurate company reports.
+              If you&apos;re already passing the &apos;groupId&apos; in your track calls, turn on this setting for more accurate company reports.
             </p>
           </div>
           <label className="relative flex h-[31px] w-[51px] cursor-pointer items-center rounded-full bg-[#e7edf3] p-0.5 has-[:checked]:justify-end has-[:checked]:bg-[#4F7396]">

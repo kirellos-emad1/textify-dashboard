@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import {  Manrope} from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 
-
 const manrope = Manrope({
-  variable: "--font-geist-mono",
+  variable: "--font-manrope", 
   subsets: ["latin"],
 });
 
@@ -20,12 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body >
+    <html lang="en" className={manrope.variable}> 
+      <body className="font-manrope">
         <Nav />
-        <main className="md:pl-28 md:py-[58px] pt-[40px] pb-[120px] ">
-
-        {children}
+        <main className="md:pl-28 md:py-[58px] pt-[40px] pb-[120px]">
+          {children}
         </main>
       </body>
     </html>

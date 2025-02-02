@@ -1,4 +1,3 @@
-import LChart from '@/components/LineChart';
 import BarChartComponent from '@/components/BarChart ';
 import React from 'react';
 import LineChartComponent from '@/components/LineChart';
